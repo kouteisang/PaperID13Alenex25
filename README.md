@@ -22,11 +22,11 @@ GPU: All the other algorithms run on an Nvidia A100 GPU with 40GB memory.
 
 In this repo, we provide the datasets, including 
 
-(1) The sparse dataset with a matrix size of 1024 (test_data/sparse/new-sparse_1024.txt) 
+(1) The sparse dataset with a matrix size of 1024 for test (test_data/sparse/new-sparse_1024.txt) 
 
 (2) The real-world datasets for graph alignment. (real-world/).
 
-(3) We put the remaining datasets on google drive due to the space limited, and can be access from https://drive.google.com/drive/folders/1It5Uq9_u6Gvft41BQRKglFrjArH_h21s?usp=sharing
+(3) We put the remaining datasets on google drive due to the space limit, and can be accessed from https://drive.google.com/drive/folders/1It5Uq9_u6Gvft41BQRKglFrjArH_h21s?usp=sharing
 
 ## Running script
 
