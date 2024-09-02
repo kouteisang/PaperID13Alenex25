@@ -12,6 +12,12 @@ IPU: We run our algorithm on the 1.325GHz Mk2 GC200 IPU.
 
 GPU: All the other algorithms run on an Nvidia A100 GPU with 40GB memory.
 
+## Software Platform: 
+
+1. Poplar: We run our algorithm using the Poplar SDK 3.2.0 (https://www.graphcore.ai/downloads). Poplar is a programming framework to directly communicate with IPU.
+
+2. PopVision: We use PopVision to profile our algorithm (https://www.graphcore.ai/developer/popvision-tools#downloads).
+
 ## Datasets:
 
 In this repo, we provide the datasets, including 
