@@ -20,7 +20,7 @@ In this repo, we provide the datasets, including
 
 (1) The sparse dataset with a matrix size of 1024 for test (test_data/sparse/new-sparse_1024.txt) 
 
-(2) The real-world datasets for graph alignment. (real-world/), for generating the similarity we use the grampa algorithm.
+(2) The real-world datasets for graph alignment. (real-world/), for generating the similarity we use the grampa algorithm, attached.
 
 (3) We put the remaining datasets on google drive due to the space limit, and can be accessed from https://drive.google.com/drive/folders/1It5Uq9_u6Gvft41BQRKglFrjArH_h21s?usp=sharing
 
