@@ -67,7 +67,3 @@ We compare our algorithm with the following baseline algorithms. We list the Git
 1. FastHA: https://github.com/paclopes/HungarianGPU
 
 2. CuLAP: https://github.com/tianluoabc/CuLAP
-
-## Contact:
-
-For any questions, please feel free to contact cheng [AT] cs [DOT] au [AOT] dk
