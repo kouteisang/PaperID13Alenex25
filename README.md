@@ -2,10 +2,6 @@
 
 This is the readme file for the Paper "Linear Assignment on Tile-Centric Accelerators: Redesigning Hungarian Algorithm on IPUs".
 
-## Authors:
-
-Cheng Huang, Alexander Mathiasen, Josef Dean, Johannes Langguth, Davide Mottin, Ira Assent.
-
 ## Hardware Platform:
 
 IPU: We run our algorithm on the 1.325GHz Mk2 GC200 IPU.
