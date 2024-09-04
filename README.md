@@ -24,7 +24,7 @@ In this repo, we provide the datasets, including
 
 (1) The sparse dataset with a matrix size of 1024 for test (test_data/sparse/new-sparse_1024.txt) 
 
-(2) The real-world datasets for graph alignment. (real-world/).
+(2) The real-world datasets for graph alignment. (real-world/), for generating the similarity we use the grampa algorithm (https://github.com/constantinosskitsas/Framework_GraphAlignment/blob/master/algorithms/Grampa/Grampa.py).
 
 (3) We put the remaining datasets on google drive due to the space limit, and can be accessed from https://drive.google.com/drive/folders/1It5Uq9_u6Gvft41BQRKglFrjArH_h21s?usp=sharing
 
@@ -55,6 +55,14 @@ For example, after we compile the program and generate main, and we want to test
 ```
 
 After running the algorithm, the program will output the running time.
+
+To generate the profile file that can analyse the program, we can use the following command, add POPLAR_ENGINE_OPTIONS='{"autoReport.all":"true","autoReport.directory":"./report"}' before executing the algorithm.
+
+```
+POPLAR_ENGINE_OPTIONS='{"autoReport.all":"true","autoReport.directory":"./report"}' ./main 1024 test_data/sparse/new-sparse_1024.txt
+```
+
+After generating the profile, we can use the PopVision to analysis the algorithm execution. 
 
 ## Baseline: 
 
